@@ -335,6 +335,21 @@ ul {
   border-color: rgba(0, 0, 0, 0.1);
 }
 
+.modal-inceput {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e2f42;
+  padding-top: 72px;
+}
+
+.form-group-altu {
+  display: flex;
+  flex-direction: column;
+  weight: 360px;
+  height: 336px;
+}
+
 .o-g-class::before {
   content: url("../icons/antenna.svg");
   display: block;
