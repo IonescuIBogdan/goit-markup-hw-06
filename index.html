@@ -39,6 +39,7 @@
             <a href="mailto:info@devstudio.com" class="contacts-mail">info@devstudio.com</a>
             <a href="tel:+11-(000)-111-11-11" class="contacts-tel">+11 (000) 111-11-11</a>
          </div>
+      </div>
    </header>
 
    <main class="main-body">
@@ -63,23 +64,23 @@
             <div class="inputs">
                <div class="input-class">
                   <label for="name">Name</label>
-                  <input type="text" id="name" class=" input-with-icon" />
+                  <input type="text" id="name" class="input-with-icon frame" autocomplete="off">
                   <svg class="input-icon">
-                     <use href="./icons/name.svg"></use>
-                  </svg>
+                     <use href="./icons/frame.svg"></use>
+                   </svg>
                </div>
                <div class="input-class">
                   <label for="phone">Phone</label>
-                  <input type="tel" id="phone" class="input-with-icon" />
+                  <input type="tel" id="phone" class="input-with-icon" autocomplete="off">
                   <svg class="input-icon">
-                     <use href="./icons/phone.svg"></use>
+                     <use href="./icons/phone-black.svg"></use>
                   </svg>
                </div>
                <div class="input-class">
                   <label for="email">Email</label>
-                  <input type="email" id="email" class="input-with-icon" />
+                  <input type="email" id="email" class="input-with-icon" autocomplete="off">
                   <svg class="input-icon">
-                     <use href="./icons/email.svg"></use>
+                     <use href="./icons/email-black.svg"></use>
                   </svg>
                </div>
                <div class="input-class">
@@ -87,7 +88,7 @@
                   <textarea id="comments" placeholder="Text input"></textarea>
                </div>
                <div class="checkbox">
-                  <input type="checkbox" />
+                  <input type="checkbox" id="terms">
                   <label for="terms">I accept the terms and conditions of the <span>Privacy Policy</span></label>
                </div>
                <button type="button" class="send-btn">
@@ -307,6 +308,21 @@
                </a>
             </div>
          </div>
+
+         <div class="social-media">
+            <p class="social-media-text">Subscribe</p>
+            <div class="input-class-subscribe">
+               <label for="name"></label>
+               <input type="text" id="name" class="input-with-icon" autocomplete="off" placeholder="E-mail">
+            </div>
+         </div>
+
+         <div class="social-media-subscribe">
+            <button type="button" class="subscribe-buton">
+               Subscribe
+            </button>
+         </div>
+
       </div>
    </footer>
    <script>

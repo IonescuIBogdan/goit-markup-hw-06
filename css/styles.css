@@ -41,12 +41,59 @@ ul {
 }
 
 .social-media {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #f4f4fd;
   margin-top: 100px;
   margin-left: 120px;
+}
+
+.social-media-subscribe {
+  margin-top: 150px;
+  margin-left: 120px;
+  width: 165px;
+  height: 40px;
+}
+
+.subscribe-buton {
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  padding: 16px, 32px, 16px, 32px;
+  border-radius: 4px;
+}
+
+.subscribe-buton:after {
+  content: url("../icons/icon-send.svg");
+}
+
+.frame:after {
+  content: url("../icons/Frame.svg");
+}
+
+.subscribe-clas {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-class-subscribe {
+  display: flex;
+}
+
+.subscribe-buton {
+  justify-content: right;
+}
+
+.input-class-subscribe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .icon-list {
